@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Menus</h1>
+  
+<ul>
+  {% for x in mymembers %}
+  <li><a href="/details/{{x.id}}">{{ x.menu }}</a></li>
+  {% endfor %}
+  <p><a href="/product">Home</a></p>
+</ul>
+
+</body>
+</html>
